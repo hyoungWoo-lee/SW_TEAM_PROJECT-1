@@ -1,3 +1,4 @@
+
 # Git workflow
 
 ![gitwork](https://user-images.githubusercontent.com/31719859/95296918-8eed8b80-08b4-11eb-9b30-cab185ef1e37.jpg)
@@ -23,3 +24,9 @@
 + 실수로 master 브랜치와 병합하지 않도록 주의해야 합니다.
 + 마지막으로 release 브랜치에서 QA를 진행하고 문제가 없을 시 release 브랜치를 master 브랜치와 develop 브랜치로 각각 merge 하여 한 버전을 마무리합니다.
 
+First, we use these branches:
+1. master : Branch where the sources to be released or released are stored, (managed by attaching tags)
+2. hotfix : Branch for fixing critial bugs in the released version
+3. release : Branch where the sources are stored, which are ready to be released after QA 
+4. develop : Branch where the overall development is in progress
+5. feature : Branch where functional unit development is in progress
