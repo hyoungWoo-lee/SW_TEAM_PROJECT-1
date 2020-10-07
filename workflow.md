@@ -1,7 +1,16 @@
-¿ì¼± ´ÙÀ½°ú °°Àº ºê·£Ä¡¸¦ »ç¿ëÇÕ´Ï´Ù.
-1. master branch : ¹èÆ÷µÇ¾ú°Å³ª ¹èÆ÷µÉ ¼Ò½º°¡ ÀúÀåµÇ´Â ºê·£Ä¡(ÅÂ±×¸¦ ´Þ¾Æ¼­ °ü¸®)
-2. hotfix branch : ¹èÆ÷µÈ ¹öÀü¿¡ »ý±ä ¹ö±×¸¦ ±ä±ÞÈ÷ ¼öÁ¤ÇÏ´Â ºê·£Ä¡
-3. release branch : ¹èÆ÷µÉ ÁØºñ°¡ µÇ¾î QA°¡ ¿¹Á¤µÈ ¼Ò½º¸¦ ÀúÀåÇÏ´Â ºê·£Ä¡
-4. develop branch : Àü¹ÝÀûÀÎ °³¹ßÀÌ ÁøÇàµÇ´Â ºê·£Ä¡
-5. feature branch : ±â´É ´ÜÀ§ °³¹ßÀÌ ÁøÇàµÇ´Â ºê·£Ä¡
+# Git workflow
+---
+5ëª…ì˜ íŒ€ì›ìœ¼ë¡œ êµ¬ì„±ëœ íŒ€ìœ¼ë¡œ, ì•„ëž˜ì™€ ê°™ì´ ìž‘ì—…ì„ ì§„í–‰í•©ë‹ˆë‹¤.
+![gitwork](https://user-images.githubusercontent.com/31719859/95297484-85b0ee80-08b5-11eb-848f-0f1b495ee6f2.jpg)
++ ê°ìž ìžì‹ ì´ forkí•´ì˜¨ repoì—ì„œ ìž‘ì—…í•©ë‹ˆë‹¤.
++ ìž‘ì—…ì´ ëë‚˜ë©´ íŒ€ repoì— pull requestë¥¼ ë³´ëƒ…ë‹ˆë‹¤.
++ merge ê¶Œí•œì€ íŒ€ìž¥ì—ê²Œ ìžˆìŠµë‹ˆë‹¤.
+
+ï¿½ì¼± ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ê·£Ä¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.
+1. master branch : ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½Å³ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ò½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç´ï¿½ ï¿½ê·£Ä¡(ï¿½Â±×¸ï¿½ ï¿½Þ¾Æ¼ï¿½ ï¿½ï¿½)
+2. hotfix branch : ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½×¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ê·£Ä¡
+3. release branch : ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Øºï¿½ ï¿½Ç¾ï¿½ QAï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ò½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ê·£Ä¡
+4. develop branch : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç´ï¿½ ï¿½ê·£Ä¡
+5. feature branch : ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç´ï¿½ ï¿½ê·£Ä¡
+
 
